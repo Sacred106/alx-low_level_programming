@@ -17,13 +17,13 @@
 int main(void)
 
 {
-int a;
+char a;
 
-long int b;
+int b;
 
-long long int c;
+long int c;
 
-char d;
+long long int d;
 
 float f;
 
