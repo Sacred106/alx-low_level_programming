@@ -1,12 +1,10 @@
 #include <stdio.h>
 
 /**
+ * Main block
  *
- *  *  * main - main block
- *
- *   *   * Return: 0
- *
- *    *    */
+ * Returns(0)
+ */
 
 int main(void)
 
