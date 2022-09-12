@@ -27,11 +27,11 @@ char d;
 
 float f;
 
-printf("Size of an int: %d byte(s)\n", (unsigned long)sizeof(a));
-printf("Size of a long int: %d byte(s)\n", (unsigned long)sizeof(b));
-printf("Size of a long long int: %d byte(s)\n", (unsigned long)sizeof(c));
-printf("Size of a char: %d byte(s)\n", (unsigned long)sizeof(d));
-printf("Size of a float: %d byte(s)\n", (unsigned long)sizeof(f));
+printf("Size of an int: \t\t %zu byte(s)\n", sizeof(a));
+printf("Size of a long int: \t\t %zu byte(s)\n", sizeof(b));
+printf("Size of a long long int: \t\t %zu byte(s)\n", sizeof(c));
+printf("Size of a char: \t\t %zu byte(s)\n", sizeof(d));
+printf("Size of a float: \t\t %zu byte(s)\n", sizeof(f));
 										return (0);
 
 }
