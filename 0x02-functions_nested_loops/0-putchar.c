@@ -1,13 +1,27 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <unistd.h>
+#include "main.h"
 /**
  * main -defines main
- * printf - prints
+ * _putchar: -prints
+ * @c: - character c
+ * Return: returns a value
+ * description - long description
  * return - returns int
  */
-main(void)
+int _putchar(char c);
+
+int main(void)
 {
-	printf("%s\n", " _putcharf");
-		return;
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+		return (0);
 
 }
