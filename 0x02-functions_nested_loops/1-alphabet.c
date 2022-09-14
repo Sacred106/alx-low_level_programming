@@ -1,13 +1,13 @@
 #include "main.h"
 /**
  * print_alphabet - function to print a bc
- * @c: character
- * _putchar -prints
- * Return: zero
+ *
+ * Return: 0
  */
 
 void print_alphabet(void)
 {
+
 	char c;
 
 	for (c = 'a'; c <= 'z'; c++)
