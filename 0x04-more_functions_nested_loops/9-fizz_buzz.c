@@ -2,13 +2,11 @@
 
 /**
  * main - function that checks for uppercase character.
- *
  * Return: 0
  */
 
 int main(void)
 {
-
 int h = 1;
 
 while (h <= 100)
@@ -30,7 +28,7 @@ while (h <= 100)
 		printf("Fizz ");
 	else
 		printf("%d ", h);
-		h++;
+h++;
 }
 
 return (0);
