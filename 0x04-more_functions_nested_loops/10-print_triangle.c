@@ -22,16 +22,15 @@ if (size > 0)
 		{
 			putchar(' ');
 		}
-												for (inc2 = 0; inc2 < inc1; inc2++)
+		for (inc2 = 0; inc2 < inc1; inc2++)
 		{
 			putchar('#');
 		}
-												if (inc1 == size)
+		if (inc1 == size)
 		{
 			continue;
 		}
-
-												putchar('\n');
+		putchar('\n');
 	}
 }
 

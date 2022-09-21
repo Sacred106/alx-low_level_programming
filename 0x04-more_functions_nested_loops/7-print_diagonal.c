@@ -22,14 +22,13 @@ if (n > 0)
 		{
 			putchar(' ');
 		}
-											putchar('\\');
-												if (len == (n - 1))
+		putchar('\\');
+		if (len == (n - 1))
 		{
 			continue;
 		}
-
-											putchar('\n');
-											}
+		putchar('\n');
+	}
 }
 
 putchar('\n');

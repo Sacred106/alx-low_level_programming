@@ -26,9 +26,9 @@ while (h <= 100)
 		else
 			printf("Buzz ");
 	}
-											else if (h % 3 == 0)
+	else if (h % 3 == 0)
 		printf("Fizz ");
-											else
+	else
 		printf("%d ", h);
 		h++;
 }
